@@ -3,15 +3,9 @@ html,body {
     font-family: 'Open Sans', serif;
   }
 
-.has-bg-img {
-    background: url('img/jmt4-mirrorlake.jpg');
-    background-size: cover;
-}
-
   .hero-body .container {
     max-width: 700px;
-    
-    
+       
   }
   .hero-body .title {
     color: hsl(192,17%,99%) !important;
@@ -58,4 +52,12 @@ html,body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .copyright {
+    padding-left: 25px;
+  }
+
+  a .icon {
+    padding: 10px;
   }
